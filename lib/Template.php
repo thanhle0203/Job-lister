@@ -24,10 +24,6 @@
 
         include basename($this->template);
 
-        return ob_clean();
+        return ob_get_clean();
     }
-
-
-
-
 }
